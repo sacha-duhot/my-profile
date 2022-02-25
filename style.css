@@ -1,0 +1,46 @@
+body {
+  color: black;
+  background-color: lightgreen;
+}
+
+a {
+  color: lightgreen;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered {
+  border: 10px solid black;
+}
+
+#leader {
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+h1{
+	font-size: 35px;
+	color: lightgreen;
+	font-family: 'Playfair Display', serif;
+}
+
+h2{
+	font-size: 20px;
+	color: black;
+}
+
+h3{
+	font-size: 25px;
+	color: black;
+	font-family: 'Staatliches', cursive;
+}
+
+li{
+	list-style-type: none;
+}
